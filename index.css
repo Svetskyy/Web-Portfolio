@@ -1,0 +1,88 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	background-color: white;
+}
+
+.navbar-nav {
+	margin-left: auto;
+	padding:1rem;
+}
+
+.navbar-brand {
+	font-family: 'Anton', sans-serif;
+}
+
+#home {
+	color:white;
+}
+
+#home-p {
+	margin-top:6rem;
+	margin-left:13rem;
+	color:black;
+	font-size: 5rem;
+	line-height: 6rem;
+}
+
+strong {
+	color:#3f37c9;
+}
+
+#home-button {
+	border: 1px solid #3f37c9;
+	border-radius: 10px;
+	margin-top:5rem;
+	margin-left:13rem;
+	padding: 1rem;
+	width:14rem;
+}
+
+#home-button1 {
+	border: 1px solid #3f37c9;
+	background:#3f37c9;
+	border-radius: 10px;
+	margin-top:5rem;
+	margin-left:1rem;
+	padding: 1rem;
+	width:14rem;
+}
+
+#home-button-con, #home-button-about {
+	text-decoration: none;
+}
+
+#home-button-about {
+	color:white;
+}
+
+@media only screen and (max-width: 480px) {
+#home-p {
+	margin-top:3rem;
+	margin-left:5rem;
+	font-size: 1rem;
+	line-height: 3rem;
+ }
+
+ #home-button {
+	margin-left:5rem;
+	padding: 1rem;
+	width:10rem;
+	margin-top:2rem;
+}
+
+ #home-button1 {
+ 	margin-left:5rem ;
+ 	margin-top: 1rem;
+ 	width: 10rem;
+ }
+}
